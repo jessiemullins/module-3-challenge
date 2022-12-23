@@ -10,7 +10,7 @@ var confirmCharacter;
 var confirmPasswordlength;
 
 //Define variables
-
+//this section was incorrect
 //var get = document.querySelector("#generate");
 
 //get.addEventListener("click", function () {
