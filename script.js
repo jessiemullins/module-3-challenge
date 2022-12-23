@@ -24,7 +24,7 @@ var confirmPasswordlength;
 // add error message if input does not match 
 // need to make sure 8-128 is range not subtraction
 // learned a new word-concatenate!
-function generatePassword () {
+function generatePassword() {
 var choices = [];
 var passwordLength = [""];
 var lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
@@ -36,7 +36,7 @@ var character = [" ", "!", "#", "$", "%", "&", "(", ")", "*", "+", ",", "-", "."
   enter = prompt("Choose a length between 8-128 characters");
     if (!enter) {
       alert("You must enter a value here");
-    } else if (enter >= 8 & enter <= 128) {
+    } else if (enter <= 8 || enter >= 128) {
       enter = prompt("You must choose a value between 8 and 128");
     
     //  b. Lowercase, uppercase, special characters, numbers
