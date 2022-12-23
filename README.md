@@ -10,12 +10,8 @@ I utilized mainly else if statements, for loops, and defined variables to make t
 
 ## Usage
 
-To use, click generate password, then follow the prompts. After the last prompt is answered, the generated password should appear in the text box. 
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
-
+![image](https://user-images.githubusercontent.com/117420244/209268588-e3b66f21-0b1b-4f61-93e2-64312b627e2d.png)
+Link to deployed page: https://jessiemullins.github.io/module-3-challenge/
 
 ## License
 
