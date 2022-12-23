@@ -140,7 +140,7 @@ var character = [" ", "!", "#", "$", "%", "&", "(", ")", "*", "+", ",", "-", "."
 // 3. Generate password based on criteria
     //pickChoices is 0 to last option, then randomizing into the array
     for (let i = 0; i < enter; i++) {
-      var pickChoices = Math.floor(Math.random() * (choices.length -1));
+      var pickChoices = Math.floor(Math.random() * choices.length -1);
       passwordLength[i]=choices[pickChoices];
   
     }
